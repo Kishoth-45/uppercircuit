@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 0, 12);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+
+.header ul {
+    list-style-type: none;
+    width: 100%;
+    height: 50px !important;
+    padding: 0;
+    margin: 0;
+}
+.header li {
+    float: left;
+    padding: 10px 0px;
+    font-size: 16px;
+    display: block;
+}
+.header .cen {
+    padding: 20px 20px 20px 20px;
+}
+.header .rig {
+    float: right;
+    padding: 20px 20px;
+}
+.header .circuit {
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+.header .circuit span{
+    color: aqua;
+}
+
+.header .gokul {
+    margin-top: 10px;
+    background-color: rgb(15, 2, 27);
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.header .gn {
+    font-weight: 600;
+    margin-top: 12px;
+    font-size: 12px;
+    background-color: orange;
+    border-radius: 100%;
+    padding: 10px 8px;
+}
+.header .rapid span{
+    color: rgb(0, 183, 255);
+    font-size: 12px;
+    padding: 0 5px;
+}
+.dash {
+    color: aqua;
+    margin-left: 240px;
+    border-bottom: solid 2px aqua;
+    z-index: 2;
+}
+
+
+/* Circuit container */
+
+.circuitcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: rgba(2, 2, 29, 0.507);
+    border-radius: 5px;
+    padding: 10px;
+}
+.circuitcontainer .fty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.circuitcontainer .fty .opc {
+    font-size: 13px;
+    padding-top: 5px;
+    opacity: 0.7;
+}
+.circuitcontainer .fty .xx {
+    font-size: 12px;
+}
+.circuitcontainer .fty .g1 {
+    color: rgb(0, 255, 0);
+}
+.circuitcontainer .fty .r1 {
+    color: rgb(255, 2, 65);
+    
+}
+.circuitcontainer .rule {
+    border-bottom: 1px solid rgb(29, 29, 61);
+    opacity: 0.9;
+}
+
+.circuitcontainer .section .flexs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.circuitcontainer .search {
+    padding: 20px;
+    margin:20px 10px;
+    background-color: rgba(9, 9, 46, 0.829);
+}
+.circuitcontainer .section {
+    padding: 10px;
+}
+.circuitcontainer .section div {
+    padding: 10px 0px 10px 0px;
+}
+
+.circuitcontainer .section div .comp {
+    color: rgb(0, 255, 0);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.circuitcontainer .section .up {
+    color: rgb(0, 255, 0);
+}
+.circuitcontainer .section .up1 {
+    font-size: 17px;
+    color: rgb(0, 255, 0);
+    font-weight: 600;
+}
+.circuitcontainer .section div .compred {
+    color: rgb(255, 2, 65);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.circuitcontainer .section .upred {
+    color: rgb(255, 2, 65);
+}
+.circuitcontainer .section .up1red {
+    font-size: 17px;
+    color: rgb(255, 2, 65);
+    font-weight: 600;
+}
+.circuitcontainer .percentage, .percentage1 {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+
+.circuitcontainer .flexi {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: rgba(9, 9, 46, 0.829);
+    justify-content: space-between;
+}
+.circuitcontainer .flexi .hcl {
+    color: rgb(255, 2, 65);
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px 20px;
+
+}
+.circuitcontainer .buy {
+    background-color: rgb(0, 255, 0);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    height: 14px;
+    text-align: center;
+}
+.circuitcontainer .sell {
+    background-color:rgb(255, 2, 65);
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    height: 14px;
+    text-align: center;
+}
+.circuitcontainer .taa {
+    background-color: aqua;
+    color: black;
+}
+.circuitcontainer .del {
+    color: rgb(255, 2, 65);
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+/* content */
+
+
+.content {
+    position: absolute;
+    margin-left: 450px;
+    top: 90px;
+    width: 65%;
+}
+
+.content .bank {
+    width: 100%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-between;
+}
+.content .bank1 {
+    padding:4px 40px;
+    background-color: rgba(13, 13, 43, 0.904);
+    width: 300px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content .wallet {
+    background-color: rgba(226, 34, 98, 0.356);
+    padding: 20px;
+    border-radius: 100%;
+}
+.content .wallet .ii {
+    color: rgba(231, 57, 130, 0.863);
+    font-size: 30px;
+}
+.content .wallet1 {
+    background-color: rgba(223, 226, 34, 0.356);
+    padding: 20px;
+    border-radius: 100%;
+}
+.content .wallet1 .iii {
+    color: rgba(241, 222, 42, 0.808);
+    font-size: 30px;
+}
+
+.acc {
+    display: flex;
+    margin-top: 50px;
+    border-radius: 5px;
+    background-color: rgba(13, 13, 43, 0.904);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.acc .acn {
+    text-align: center;
+    padding: 0px 20px;
+}
+.acc .acn p {
+    color: aqua;
+    cursor: pointer;
+    border: aqua solid 0.5px;
+    width: 80px;
+    padding:5px 0px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+.acc .tab {
+    flex-basis: 70%;
+    padding: 20px 5px;
+}
+.acc table {
+    padding-left: 25px;
+    border-left: 1px solid rgba(46, 31, 114, 0.76);
+}
+.acc table p {
+    font-size: 14px;
+    opacity: 0.7;
+}
+
+.acc table h5 {
+    font-size: 17px;
+}
